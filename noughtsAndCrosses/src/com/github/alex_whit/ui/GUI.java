@@ -24,4 +24,8 @@ public class GUI {
 		frame.setSize(500, 500);
 		frame.setLocationRelativeTo(null);
 	}
+	
+	public static void start() {
+		
+	}
 }
