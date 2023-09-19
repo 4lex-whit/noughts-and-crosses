@@ -12,6 +12,9 @@ public class GUI {
 	
 	private static JFrame frame;
 	
+	/**
+	 * Initialises the GUI frame and components, and adds the components to the frame.
+	 */
 	private static void init() {
 		// frame
 		frame = new JFrame(String.format("Noughts and Crosses | %s", NoughtsAndCrosses.VERSION));
