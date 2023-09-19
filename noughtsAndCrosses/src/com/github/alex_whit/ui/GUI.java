@@ -25,6 +25,9 @@ public class GUI {
 		frame.setLocationRelativeTo(null);
 	}
 	
+	/**
+	 * Sets up the GUI frame and components, and shows the GUI
+	 */
 	public static void start() {
 		
 	}
