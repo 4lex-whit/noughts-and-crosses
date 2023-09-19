@@ -3,6 +3,9 @@ package com.github.alex_whit.ui;
 import java.util.logging.Logger;
 
 import javax.swing.JFrame;
+import javax.swing.WindowConstants;
+
+import com.github.alex_whit.NoughtsAndCrosses;
 
 public class GUI {
 	private static final Logger LOGGER = Logger.getLogger(GUI.class.getName());
@@ -10,6 +13,12 @@ public class GUI {
 	private static JFrame frame;
 	
 	private static void init() {
-		
+		// frame
+		frame = new JFrame(String.format("Noughts and Crosses | %s", NoughtsAndCrosses.VERSION));
+		frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+		frame.setLayout(null);
+		frame.setResizable(false);
+		frame.setSize(500, 500);
+		frame.setLocationRelativeTo(null);
 	}
 }
