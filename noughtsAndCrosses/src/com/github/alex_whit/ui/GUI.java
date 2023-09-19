@@ -8,4 +8,8 @@ public class GUI {
 	private static final Logger LOGGER = Logger.getLogger(GUI.class.getName());
 	
 	private static JFrame frame;
+	
+	private static void init() {
+		
+	}
 }
