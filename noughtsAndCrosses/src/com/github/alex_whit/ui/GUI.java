@@ -25,6 +25,11 @@ public class GUI {
 		frame.setResizable(false);
 		frame.setSize(500, 500);
 		frame.setLocationRelativeTo(null);
+		
+		// grid
+		grid = new JLabel();
+		grid.setBounds(0, 0, 500, 500);
+		frame.add(grid);
 	}
 	
 	/**
