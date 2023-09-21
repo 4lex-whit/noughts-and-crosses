@@ -29,6 +29,7 @@ public class GUI {
 	 * Sets up the GUI frame and components, and shows the GUI
 	 */
 	public static void start() {
-		
+		init();
+		frame.setVisible(true);
 	}
 }
