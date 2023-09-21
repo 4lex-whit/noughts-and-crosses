@@ -3,6 +3,7 @@ package com.github.alex_whit.ui;
 import java.util.logging.Logger;
 
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.WindowConstants;
 
 import com.github.alex_whit.NoughtsAndCrosses;
@@ -11,6 +12,7 @@ public class GUI {
 	private static final Logger LOGGER = Logger.getLogger(GUI.class.getName());
 	
 	private static JFrame frame;
+	private static JLabel grid;
 	
 	/**
 	 * Initialises the GUI frame and components, and adds the components to the frame.
